@@ -4,4 +4,17 @@ function myFunction() {
     popup.classList.toggle("show");
 }
 
-// bra1nz_2of2_1jh34b21}
+/*
+
+    Nice! kamu ketemu bagian kedua dari flagnya.
+    Tapi ini cuma satu bagian dari flagnya. 
+    Kamu harus cari bagian pertama dari flagnya dan kamu gabungin ya!
+
+    ingat, gaada spasi ya di flagnya
+
+    dan jangan lupa formatnya:
+    CTFdash{jawaban}
+
+    bra1nz_2of2_1jh34b21}
+
+*/

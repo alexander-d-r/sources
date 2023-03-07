@@ -2,6 +2,15 @@
 
 <html lang="en">
 
+<!--
+
+    Hmm, kita perlu informasi lebih nih buat nemuin flagnya.
+    
+    ada yang bisa di klik ga ya di website ini, buat cari informasi lebih?
+
+-->
+
+
 <head>
 
     <meta charset="UTF-8">
@@ -15,52 +24,47 @@
 </head>
 
 <body style="text-align:center">
-    
-    <h3>CIA Triad</h3>
-        <p>The CIA triad of confidentiality, integrity, and availability is at the heart of information security.</p>
 
+    <br><br><br><br><br><br><br><br>
+
+    <h3>Web Exploitation</h3>
     <br>
+        <p class="webex">Website di seluruh dunia diprogram menggunakan berbagai bahasa pemrograman. 
+        Meskipun ada kerentanan khusus dalam setiap bahasa pemrograman yang harus diperhatikan oleh developer ketika membuat website, 
+        ada masalah mendasar pada internet yang dapat muncul terlepas dari bahasa pemrogramman atau Framework yang developer pilih ketika membuat sebuah website.
+        <br><br>
+        Kerentanan ini sering muncul dalam CTF sebagai tantangan keamanan web di mana pengguna perlu mengeksploitasi bug untuk mendapatkan hak istimewa tingkat yang lebih tinggi.
+        Misalnya dari pengunjung website biasa menjadi Administrator dalam sebuah website.
+        <br><br>
+        Kerentanan yang umum ditemukan dalam tantangan CTF adalah:
+        
+        <br><br>
 
-    <h3>Confidentiality</h3>
-        <p class="con">In information security, confidentiality "is the property, that information is not made available or disclosed to unauthorized individuals, entities, or processes."
-        While similar to "privacy," the two words are not interchangeable. 
-        Rather, confidentiality is a component of privacy that implements to protect our data from unauthorized viewers.
-        Examples of confidentiality of electronic data being compromised include laptop theft, password theft, or sensitive emails being sent to the incorrect individuals.</p>
-
-    <br>
-
-    <h3>Integrity</h3>
-        <p class="int">In IT security, data integrity means maintaining and assuring the accuracy and completeness of data over its entire lifecycle. 
-        This means that data cannot be modified in an unauthorized or undetected manner. 
-        This is not the same thing as referential integrity in databases, although it can be viewed as a special case of consistency as understood in the classic ACID model of transaction processing. 
-        Information security systems typically incorporate controls to ensure their own integrity, in particular protecting the kernel or core functions against both deliberate and accidental threats. 
-        Multi-purpose and multi-user computer systems aim to compartmentalize the data and processing such that no user or process can adversely impact another: the controls may not succeed however, as we see in incidents such as malware infections, hacks, data theft, fraud, and privacy breaches.</p>
-
+        - SQL Injection
         <br>
-
-        <p class="int">More broadly, integrity is an information security principle that involves human/social, process, and commercial integrity, as well as data integrity. As such it touches on aspects such as credibility, consistency, truthfulness, completeness, accuracy, timeliness, and assurance.</p>
-
-    <br>
-
-    <h3>Availability</h3>
-        <p class="ava">For any information system to serve its purpose, the information must be available when it is needed. 
-        This means the computing systems used to store and process the information, the security controls used to protect it, and the communication channels used to access it must be functioning correctly. 
-        High availability systems aim to remain available at all times, preventing service disruptions due to power outages, hardware failures, and system upgrades. 
-        Ensuring availability also involves preventing denial-of-service attacks, such as a flood of incoming messages to the target system, essentially forcing it to shut down.</p>
-
+        - Command Injection
         <br>
+        - Directory Traversal
+        <br>
+        - Cross Site Request Forgery
+        <br>
+        - Cross Site Scripting
+        <br>
+        - Server Side Request Forgery
 
-        <p class="ava">In the realm of information security, availability can often be viewed as one of the most important parts of a successful information security program. 
-        Ultimately end-users need to be able to perform job functions; by ensuring availability an organization is able to perform to the standards that an organization's stakeholders expect. 
-        This can involve topics such as proxy configurations, outside web access, the ability to access shared drives and the ability to send emails. 
-        Executives oftentimes do not understand the technical side of information security and look at availability as an easy fix, but this often requires collaboration from many different organizational teams, such as network operations, development operations, incident response, and policy/change management. 
-        A successful information security team involves many different key roles to mesh and align for the CIA triad to be provided effectively.</p>
+    <br><br><br><br><br><br><br>
     
-    <br><br><br><br>
-    
-    <div class="popup" onclick="myFunction()">hint
-        <span class="popuptext" id="myPopup">Hmm, the <span style="font-weight: bolder; text-decoration: underline;">source</span> of this website is suspicious.</span>
+    <div class="popup" onclick="myFunction()">
+        <h1>hint</h1>
+        <span class="popuptext" id="myPopup">Hmm, coba kamu klik kanan, dan <span style="font-weight: bolder; text-decoration: underline;">View page source</span> deh. Ini website mencurigakan sumbernya :)</span>
     </div>
+
+    <!--
+
+        Hmm, keliatannya sources.css sama sources.js bisa di klik nih.
+        coba kamu klik dan cari ada informasi lebih tentang flagnya ga di dalemnya
+
+    -->
 
     <link rel="stylesheet" href="sources.css">
     <script src="sources.js"></script>

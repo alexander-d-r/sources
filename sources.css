@@ -45,19 +45,7 @@
         animation: fadeIn 1s;
     }
 
-    p.con {
-        margin-left: auto;
-        margin-right: auto;
-        width: 33em;
-    }
-
-    p.int {
-        margin-left: auto;
-        margin-right: auto;
-        width: 33em;
-    }
-
-    p.ava {
+    p.webex {
         margin-left: auto;
         margin-right: auto;
         width: 33em;
@@ -84,4 +72,17 @@
         }
     }
 
-    /* CTFdash{sc4tter_1of2_ */
+    /* 
+
+    Nice! kamu ketemu bagian pertama dari flagnya.
+    Tapi ini cuma satu bagian dari flagnya. 
+    Kamu harus cari bagian kedua dari flagnya dan kamu gabungin ya!
+
+    ingat, gaada spasi ya di flagnya
+
+    dan jangan lupa formatnya:
+    CTFdash{jawaban}
+    
+    CTFdash{sc4tter_1of2_ 
+        
+    */
